@@ -1,0 +1,13 @@
+name: X
+run-name: y
+on: [push]
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello, GitHub-Actions!"
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      -run: echo "Has completed!"
+
