@@ -10,5 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Has completed!"
-      
+      - run: echo "Test!"
+      - run: |
+          echo "Multi-line script"
+          ls -la
+
 
