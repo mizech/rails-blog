@@ -9,5 +9,6 @@ jobs:
   second-job:
     runs-on: ubuntu-latest
     steps:
-      -run: echo "Has completed!"
+      - run: echo "Has completed!"
+      
 
