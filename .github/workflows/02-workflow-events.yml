@@ -5,4 +5,4 @@ jobs:
     echo-1x:
         runs-on: ubuntu-latest
         steps:
-            - run: echo "Testing, 1234 ..."
+            - run: echo "${{ github.event_name }}"
