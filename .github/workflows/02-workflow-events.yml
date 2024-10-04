@@ -1,0 +1,8 @@
+name: 02 Workflow Events
+run-name: ${{ github.event_name }}
+on: [push]
+jobs:
+    echo-1:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "{{ github.event_name }} {{ github.ref_type}}"
